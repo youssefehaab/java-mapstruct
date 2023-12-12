@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  ############################### storage-service ########################
+  mapstruct-service:
+    image: java-mapstruct
+    ports:
+      - "6969:6969"
